@@ -17,6 +17,8 @@ window.requestAnimationFrame(function () {
         "pokeimg/212/i150-212.png",
         "pokeimg/212/i151-212.png",
         "pokeimg/212/i251-212.png",
+        "pokeimg/212/i385-212.png",
+        "pokeimg/212/i494-212.png",
 
         "pokeimg/114/i001-114.png",
         "pokeimg/114/i002-114.png",
@@ -29,7 +31,9 @@ window.requestAnimationFrame(function () {
         "pokeimg/114/i009-114.png",
         "pokeimg/114/i150-114.png",
         "pokeimg/114/i151-114.png",
-        "pokeimg/114/i251-114.png"
+        "pokeimg/114/i251-114.png",
+        "pokeimg/212/i385-114.png",
+        "pokeimg/212/i494-114.png"
 
     ];
     for(var i = 0; i < imageList.length; i++ ) 

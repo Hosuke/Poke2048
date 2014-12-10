@@ -542,7 +542,6 @@ hr {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-
     background: #f55cc9 url('../pokeimg/212/i151-212.png');
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -550,14 +549,33 @@ hr {
     @media screen and (max-width: 480px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-super .tile-inner {
 
+  .tile.tile-4096 .tile-inner {
     background: #6fad34 url('../pokeimg/212/i251-212.png');
-    background-size: cover;    
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.60), inset 0 0 0 1px rgba(255, 255, 255, 0.38);
+    font-size: 30px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-4096 .tile-inner {
+        font-size: 10px; } }
+
+  .tile.tile-8192 .tile-inner {
+    background: #FFE216 url('../pokeimg/212/i385-212.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.64), inset 0 0 0 1px rgba(255, 255, 255, 0.42);
+    font-size: 30px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-8192 .tile-inner {
+        font-size: 10px; } }
+
+  .tile.tile-super .tile-inner {
+    background: #FF6A31 url('../pokeimg/212/i494-212.png');
+    background-size: cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.68), inset 0 0 0 1px rgba(255, 255, 255, 0.45);
     font-size: 30px; }
     @media screen and (max-width: 480px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 7px; } }
 
 @-webkit-keyframes appear {
   0% {
@@ -912,8 +930,8 @@ hr {
       @media screen and (max-width: 480px) {
         .tile.tile-1024 .tile-inner {
           font-size: 15px; } }
-    .tile.tile-2048 .tile-inner {
 
+    .tile.tile-2048 .tile-inner {
       background: #f55cc9 url('../pokeimg/114/i151-114.png');
       background-size: cover;
       box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -921,15 +939,33 @@ hr {
       @media screen and (max-width: 480px) {
         .tile.tile-2048 .tile-inner {
           font-size: 15px; } }
-    .tile.tile-super .tile-inner {
 
+    .tile.tile-4096 .tile-inner {
       background: #6fad34 url('../pokeimg/114/i251-114.png');
-      background-size: cover;    
+      background-size: cover;
+      box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.60), inset 0 0 0 1px rgba(255, 255, 255, 0.38);
+      font-size: 30px; }
+      @media screen and (max-width: 480px) {
+        .tile.tile-4096 .tile-inner {
+          font-size: 10px; } }
+
+    .tile.tile-8192 .tile-inner {
+      background: #FFE216 url('../pokeimg/114/i385-114.png');
+      background-size: cover;
+      box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.64), inset 0 0 0 1px rgba(255, 255, 255, 0.42);
+      font-size: 30px; }
+      @media screen and (max-width: 480px) {
+        .tile.tile-8192 .tile-inner {
+          font-size: 10px; } }
+
+    .tile.tile-super .tile-inner {
+      background: #FF6A31 url('../pokeimg/114/i494-114.png');
+      background-size: cover;
+      box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.68), inset 0 0 0 1px rgba(255, 255, 255, 0.45);
       font-size: 30px; }
       @media screen and (max-width: 480px) {
         .tile.tile-super .tile-inner {
-          font-size: 10px; } }
-
+          font-size: 7px; } }
 
 
     #twitter-widget-0 {
